@@ -1,0 +1,52 @@
+{
+  "name": "playperium-plexus",
+  "productName": "PlayPerium Plexus",
+  "description": "Community Client",
+  "version": "1.0.0",
+  "author": {
+    "name": "PlayPerium.eu",
+    "email": "info@playperium.eu"
+    },
+  "copyright": "© 2017, PlayPerium.eu",
+  "homepage": "https://playperium.eu",
+  "license": "DFSL",
+  "main": "src/main.js",
+  "build": {
+    "appId": "eu.playperium.plexus",
+    "asar": true,
+    "win": {
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "license": "eula.txt"
+    },
+    "linux": {
+      "target": [
+        "deb",
+        "tar.gz"
+      ]
+     } 
+  },
+  "dependencies": {
+    "fs-jetpack": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.0.1",
+    "electron": "^1.6.11",
+    "electron-builder": "^19.5.1",
+    "electron-mocha": "^4.0.0",
+    "istanbul": "^0.4.5",
+    "minimist": "^1.2.0",
+    "mocha": "^3.2.0",
+    "rollup": "^0.43.0",
+    "rollup-plugin-istanbul": "^1.1.0",
+    "source-map-support": "^0.4.11",
+    "spectron": "^3.6.4"
+  },
+"scripts": {
+    "build": "build",
+    "start": "electron src/main.js"
+  }
+}
