@@ -13,6 +13,7 @@
   "main": "src/main.js",
   "build": {
     "appId": "eu.playperium.plexus",
+    "artifactName" : "playperium-plexus-setup.${ext}",
     "asar": true,
     "win": {
       "target": "nsis"
