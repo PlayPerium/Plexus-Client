@@ -25,3 +25,7 @@ build_script:
   - npm run build
 
 test: off
+
+artifacts:
+  - path: PlayPerium-Plexus\dist\playperium-plexus-setup.exe
+    name: playperium-plexus-setup.exe
