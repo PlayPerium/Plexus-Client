@@ -27,5 +27,5 @@ build_script:
 test: off
 
 artifacts:
-  - path: PlayPerium-Plexus\dist\playperium-plexus-setup.exe
+  - path: dist\playperium-plexus-setup.exe
     name: playperium-plexus-setup.exe
