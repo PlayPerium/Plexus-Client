@@ -8,3 +8,5 @@ app.on('ready', () => {
     windowManager.createForm();
     windowManager.setFormMenu();
 })
+
+app.once('window-all-closed', app.quit);
