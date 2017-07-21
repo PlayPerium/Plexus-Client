@@ -7,11 +7,11 @@ class WindowManager {
 
     createForm() {
         mainForm = new BrowserWindow({
-            width: 1500, 
-            height: 870, 
-            minWidth: 1500, 
-            minHeight: 870, 
-            center: true, 
+            width: 1500,
+            height: 870,
+            minWidth: 1500,
+            minHeight: 870,
+            center: true,
             title: 'PlayPerium Plexus'
             })
 

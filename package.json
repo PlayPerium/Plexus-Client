@@ -15,6 +15,9 @@
     "appId": "eu.playperium.plexus",
     "artifactName" : "playperium-plexus-setup.${ext}",
     "asar": true,
+    "extraResources": [
+      "app"
+    ],
     "win": {
       "target": "nsis"
     },

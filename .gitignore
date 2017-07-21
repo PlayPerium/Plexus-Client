@@ -13,3 +13,6 @@
 # Idea
 /.vscode/
 /.vs/
+
+# Debug
+/resources/
