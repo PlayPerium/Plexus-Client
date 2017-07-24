@@ -56,7 +56,9 @@ function openAboutWindow() {
         modal: true,
         resizable: false,
         maximizable: false,
-        minimizable: false
+        minimizable: false,
+        center: true,
+        title: 'Über Plexus'
         })
 
     aboutWindow.setMenu(null);
@@ -74,8 +76,9 @@ function openSettinsWindow() {
         height: 600,
         minWidth: 700, 
         minHeight: 400,
+        maximizable: false,
         center: true,
-        maximizable: false
+        title: 'Einstellungen'
         })
 
     settingsWindow.setMenu(null);
