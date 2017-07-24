@@ -16,7 +16,8 @@
     "artifactName" : "playperium-plexus-setup.${ext}",
     "asar": true,
     "extraResources": [
-      "app"
+      "app",
+      "LICENSE"
     ],
     "win": {
       "target": "nsis"

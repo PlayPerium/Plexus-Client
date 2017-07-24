@@ -1,4 +1,5 @@
 var electron = require('electron');
+var shell = require('electron').shell;
 var {app, BrowserWindow, Menu} = electron;
 
 var mainForm;
@@ -36,6 +37,10 @@ class WindowManager {
             {
                 label: 'Hilfe',
                 submenu: [
+                    {
+                        label: 'Lizenz',
+                        click() {shell.openExternal('https://github.com/PlayPerium/PlayPerium-Plexus/blob/master/LICENSE');}
+                    },
                     {
                         label: 'Über Plexus',
                         click() {openAboutWindow();}
