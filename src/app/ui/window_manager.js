@@ -2,6 +2,8 @@ var electron = require('electron');
 var shell = require('electron').shell;
 var {app, BrowserWindow, Menu} = electron;
 
+var languageManager = require('../language_manager');
+
 var mainForm;
 
 class WindowManager {
@@ -13,36 +15,37 @@ class WindowManager {
             minWidth: 1500,
             minHeight: 870,
             center: true,
-            title: 'PlayPerium Plexus'
+            title: languageManager.translate().FORMS.MAINFORM.TITLE
             })
 
+            mainForm.loadURL(`file://${__dirname}/main.html`);
             mainForm.maximize();
     }
 
     setFormMenu() {
         var formMenu = [
             {
-                label: 'Plexus',
+                label: languageManager.translate().GENERALLY.PLEXUS,
                 submenu: [
                     {
-                        label: 'Einstellungen',
+                        label: languageManager.translate().GENERALLY.SETTINGS,
                         click() {openSettinsWindow();}
                     },
                     {
-                        label: 'Beenden',
+                        label: languageManager.translate().GENERALLY.CLOSE,
                         click() {app.quit();}
                     }
                 ]
             },
             {
-                label: 'Hilfe',
+                label: languageManager.translate().GENERALLY.HELP,
                 submenu: [
                     {
-                        label: 'Lizenz',
+                        label: languageManager.translate().GENERALLY.LICENSE,
                         click() {shell.openExternal('https://github.com/PlayPerium/PlayPerium-Plexus/blob/master/LICENSE');}
                     },
                     {
-                        label: 'Über Plexus',
+                        label: languageManager.translate().GENERALLY.ABOUT_PLEXUS,
                         click() {openAboutWindow();}
                     }
                 ]
@@ -63,7 +66,7 @@ function openAboutWindow() {
         maximizable: false,
         minimizable: false,
         center: true,
-        title: 'Über Plexus'
+        title: languageManager.translate().FORMS.ABOUTFORM.TITLE
         })
 
     aboutWindow.setMenu(null);
@@ -83,7 +86,7 @@ function openSettinsWindow() {
         minHeight: 400,
         maximizable: false,
         center: true,
-        title: 'Einstellungen'
+        title: languageManager.translate().FORMS.SETTINGSFORM.TITLE
         })
 
     settingsWindow.setMenu(null);

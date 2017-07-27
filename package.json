@@ -6,14 +6,14 @@
   "author": {
     "name": "PlayPerium.eu",
     "email": "info@playperium.eu"
-    },
+  },
   "copyright": "© 2017, PlayPerium.eu",
   "homepage": "https://playperium.eu",
   "license": "DFSL",
   "main": "src/main.js",
   "build": {
     "appId": "eu.playperium.plexus",
-    "artifactName" : "playperium-plexus-setup.${ext}",
+    "artifactName": "playperium-plexus-setup.${ext}",
     "asar": true,
     "extraResources": [
       "app",
@@ -32,10 +32,13 @@
         "deb",
         "tar.gz"
       ]
-     } 
+    }
   },
   "dependencies": {
-    "fs-jetpack": "^1.0.0"
+    "fs-jetpack": "^1.0.0",
+    "angular": "^1.6.5",
+    "angular-translate": "^2.15.2",
+	  "electron-json-config": "^1.5.0"
   },
   "devDependencies": {
     "chai": "^4.0.1",
@@ -50,7 +53,7 @@
     "source-map-support": "^0.4.11",
     "spectron": "^3.6.4"
   },
-"scripts": {
+  "scripts": {
     "build": "build",
     "start": "electron src/main.js"
   }

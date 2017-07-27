@@ -1,0 +1,22 @@
+{
+    "GENERALLY": {
+        "PLAYPERIUM": "PlayPerium",
+        "PLEXUS": "Plexus",
+        "SETTINGS": "Settings",
+        "CLOSE": "Exit",
+        "HELP": "Help",
+        "LICENSE": "License",
+        "ABOUT_PLEXUS": "About Plexus"
+    },
+    "FORMS": {
+        "MAINFORM": {
+            "TITLE": "PlayPerium Plexus"
+        },
+        "ABOUTFORM": {
+			"TITLE": "About Plexus"
+        },
+        "SETTINGSFORM": {
+			"TITLE": "Settings"
+        }
+    }
+}

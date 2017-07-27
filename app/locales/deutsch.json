@@ -1,0 +1,24 @@
+{
+    "GENERALLY": {
+        "PLAYPERIUM": "PlayPerium",
+        "PLEXUS": "Plexus",
+        "SETTINGS": "Einstellungen",
+        "CLOSE": "Beenden",
+        "HELP": "Hilfe",
+        "LICENSE": "Lizenz",
+        "ABOUT_PLEXUS": "Über Plexus"
+    },
+    "FORMS": {
+        "MAINFORM": {
+            "TITLE": "PlayPerium Plexus"
+        },
+        "ABOUTFORM": {
+            "TITLE": "Über Plexus",
+            "INFO": "PlayPerium Plexus wird durch Electron und andere quelloffene Software ermöglicht.",
+            "SOURCE": "Quellcode"
+        },
+        "SETTINGSFORM": {
+            "TITLE": "Einstellungen"
+        }
+    }
+}

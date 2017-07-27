@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="plexus">
   <head>
     <meta charset="UTF-8">
 
@@ -8,6 +8,10 @@
     <link href="stylesheets/about.css" rel="stylesheet" type="text/css">
  </head>
  <body class="header-content">
+   <script src="../../../node_modules/angular/angular.js"></script>
+   <script src="../../../node_modules/angular-translate/dist/angular-translate.js"></script>
+   <script src="../app.js"></script>
+
    <header class="header-header">
      <img src="../../assets/playperium_cg_web.png"></img>
    </header>
@@ -16,9 +20,9 @@
      <h2>Plexus 01.00</h2>
      
    <footer class="footer-content">
-     <small>PlayPerium Plexus wird durch <a href="https://github.com/electron/electron" target="_blank">Electron</a> und andere <a href="#" target="_blank">quelloffene Software</a> ermöglicht.</small>
+     <small>{{ 'FORMS.ABOUTFORM.INFO' | translate }}</small>
      <br>
-     <small>PlayPerium Plexus <a href="https://github.com/playperium/playperium-plexus" target="_blank">Quellcode</a></small>
+     <small>{{ 'GENERALLY.PLAYPERIUM' | translate }} {{ 'GENERALLY.PLEXUS' | translate }} <a href="https://github.com/playperium/playperium-plexus" target="_blank">{{ 'FORMS.ABOUTFORM.SOURCE' | translate }}</a></small>
    </footer>
  </body>
 </html>
