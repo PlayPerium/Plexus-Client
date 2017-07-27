@@ -10,10 +10,10 @@ class WindowManager {
 
     createForm() {
         mainForm = new BrowserWindow({
-            width: 1500,
-            height: 870,
-            minWidth: 1500,
-            minHeight: 870,
+            width: 1200,
+            height: 700,
+            minWidth: 1200,
+            minHeight: 700,
             center: true,
             title: languageManager.translate().FORMS.MAINFORM.TITLE
             })
