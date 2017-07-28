@@ -15,13 +15,13 @@ class LanguageManager {
     setLanguage() {
         if (config.has("language")) {
             language = config.get("language");
-            file = JSON.parse(fs.readFileSync("resources/app/locales/" + language + ".json"));
+            file = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "..", "resources/app/locales/" + language + ".json")));
         } else {
             // Temporary. Later for Welcome screen.
             config.set("language", "deutsch");
 
             language = config.get("language");
-            file = JSON.parse(fs.readFileSync("resources/app/locales/" + language + ".json"));
+            file = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "..", "resources/app/locales/" + language + ".json")));
         }
     }
 
