@@ -1,434 +1,373 @@
-========================================
-
-Copyright (C) 2017 PlayPerium.
-
-This Program may be used by anyone in accordance 
-with the terms of the German Free Software
-License
-
-The License may be obtained under <http://www.d-fsl.org>.
-
-========================================
-
-
-
-German Free Software License
-
-(c) Ministry of Science and Research, State of 
-North-Rhine Westphalia 2004
-
-Developed and created by Axel Metzger and Till 
-Jaeger, Institut für Rechtsfragen der Freien und 
-Open Source Software (Institute for Legal Issues 
-On Free and Open Source Software), 
-<http://www.ifross.de>.
-
-Preamble
-
-Software is more than a mere economic asset. It 
-is the technical foundation of the information 
-society. Therefore, the issue of the public share 
-in software is of particular importance. 
-Conventionally licensed computer programs are 
-distributed in object code form only, and the 
-user is not entitled to modify or pass on the 
-program to third parties. The license model for 
-Free Software (synonym "Open Source Software"), 
-however, grants comprehensive rights in the 
-handling of the program. The German Free Software 
-License is based on this license model. It gives 
-you the right to use the program in a 
-comprehensive manner. You are allowed to modify 
-the computer program according to your 
-requirements or to reproduce or distribute it and 
-make it publicly available in a modified or 
-unmodified form. These rights are granted free of 
-charge. 
-
-However, the German Free Software License 
-combines these rights with certain obligations 
-that will ensure the free circulation of the 
-program and all further developments published. 
-If you distribute the program or make it publicly 
-available, you have to include a copy of this 
-license to anyone receiving the program from you 
-and enable access to its source code. Another 
-obligation arises from further developments of 
-the program. Modifications to the program which 
-you distribute or make publicly available shall 
-be released in accordance with the conditions of 
-this license. 
-
-German Free Software License takes into account 
-the special requirements of German and European 
-law. It is drafted bilingually and thus intended 
-for international distribution. 
-
-
-Section 0 Definitions
-
-Documentation: Description of composition, 
-architecture and/or structure of the programming 
-process and/or functionalities of the program, 
-irrespective of whether they were done in the 
-Source Code or separately.
-
-License: The agreement concluded between the 
-licensor and you, with the content of the German 
-Free Software License and/or the pertaining 
-offer. 
-
-Licensee: Every natural or legal entity who has 
-accepted this License.
-
-Program: Every computer program which has been 
-distributed or made publicly available by the 
-entitled person in accordance with the terms of 
-this License.
-
-Object Code: The machine-readable form of the 
-Program.
-
-Public/publicly: Not solely directed towards a 
-certain group of people who have a personal 
-connection to each other or are associated 
-through their affiliation with a legal person or 
-public organisation.
-
-Making Publicly Available: The public 
-distribution of the Program in an immaterial 
-form, in particular, by making it available for 
-download in data networks.  
+Mozilla Public License Version 2.0
+==================================
+
+1. Definitions
+--------------
+
+1.1. "Contributor"
+    means each individual or legal entity that creates, contributes to
+    the creation of, or owns Covered Software.
+
+1.2. "Contributor Version"
+    means the combination of the Contributions of others (if any) used
+    by a Contributor and that particular Contributor's Contribution.
+
+1.3. "Contribution"
+    means Covered Software of a particular Contributor.
+
+1.4. "Covered Software"
+    means Source Code Form to which the initial Contributor has attached
+    the notice in Exhibit A, the Executable Form of such Source Code
+    Form, and Modifications of such Source Code Form, in each case
+    including portions thereof.
+
+1.5. "Incompatible With Secondary Licenses"
+    means
+
+    (a) that the initial Contributor has attached the notice described
+        in Exhibit B to the Covered Software; or
 
-Entitled Person(s): The author(s) or other 
-holders of the exclusive right to use for the 
-Program.
-
-Source Code: The form of the Program represented 
-in programming language and readable for humans.
+    (b) that the Covered Software was made available under the terms of
+        version 1.1 or earlier of the License, but not also under the
+        terms of a Secondary License.
 
-Modification: Any extension, shortening and/or 
-alteration of the Program, including, but not 
-limited to further developments.
-
-Distribution: The public passing on of material 
-copies to third parties, in particular, onto 
-storage devices or in connection with hardware.  
-
-Complete Source Code: The Source Code in the form 
-used for preparation and/or modification together 
-with the configuration files and software tools 
-required for compilation and installation, 
-provided that these are not commonly used in the 
-required form (e.g. standard compiler) or can be 
-downloaded by any Internet user without license 
-fee.
-
-
-Section 1 Rights
-
-(1) You may reproduce and distribute the Program 
-and make it publicly available in an unmodified 
-form. 
-
-(2) You may modify the Program and reproduce and 
-distribute modified versions and make them 
-publicly available. It is also permitted to 
-combine the Program or parts thereof with other 
-programs. 
-
-(3) You obtain the rights free of charge.
-
-
-Section 2 Obligations for Distribution and Making 
-Publicly Available
-
-(1) If you distribute the Program or make it 
-publicly available, be it in unmodified or 
-modified form, be it in combination with other 
-programs or in connection with hardware, you also 
-have to provide or include the following:
-
-1. all references to this License in the Source 
-Code and/or Object Code;
- 
-2. all references in the Source Code and/or 
-Object Code containing information about the 
-author of the Program;
-
-3. a conspicuous reference to this License and 
-the Internet address <http://www.d-fsl.org>, to 
-be displayed in a form that can easily be read by 
-the recipient;
-
-4. the complete text of this License in a form 
-easy to perceive.
-
-(2) If license and/or contract terms are 
-displayed when the Program is installed and/or 
-started, the following items must also be 
-displayed:
-
-1. this License;
-
-2. a reference to this License; and
-
-3. a reference to the Entitled Person(s) to the 
-initial program components used under this 
-License.
-
-(3) You may not make the use of the Program 
-contingent upon the compliance with conditions or 
-obligations that are not set forth in this 
-License. 
-
-(4) Provided that you have received Documentation 
-for the Program, you have to deliver this 
-Documentation with the Program, as well, unless 
-free delivery of the Documentation is not 
-permitted by the documentation license.
-
-
-Section 3 Further Obligations regarding the 
-Distribution of Modified Versions 
-
-(1) You may only distribute modified versions of 
-the Program or make them publicly available in 
-accordance with the terms of this License, so 
-that any third party is able to make use of the 
-modified Program as a whole under this License. 
-
-(2) If the Program or a part thereof is combined 
-with another program, this also applies to the 
-entire combination as a modified version of the 
-Program, unless the other program is independent 
-in terms of form and content.  Another program 
-shall be regarded as independent if it fulfils 
-the following requirements:
-
-1. The Source Code of the combined programs must 
-be contained in separate files which do not 
-include components of the other part except for 
-parts containing the information customary and 
-required for the Program combination. The Source 
-Code of the other program does not have to be 
-delivered.
-
-2. The part which is combined with the Program 
-must also be reasonably usable when not combined 
-with the Program, i.e. on a standalone basis or 
-with other programs. The meaning of "reasonably 
-usable" will be based on the opinion of pertinent 
-circles of expert groups in the relevant field. 
-Such circles of experts include everyone who 
-develops, uses, distributes or makes publicly 
-available the Program concerned or programs with 
-similar functionality.
-
-(3) If you distribute or make publicly available 
-the Program or parts thereof - modified or 
-unmodified - in combination with another program 
-licensed under the GNU General Public License 
-(GPL), the Program may also be used under 
-conditions of the GPL, provided it constitutes a 
-"derivative work" together with the other program 
-in the sense of the GPL. In this case, any 
-reference to this License should be removed and 
-replaced by a reference to the GPL. Whether a 
-"derivative work" in the sense of the GPL arises 
-from this combination is primarily defined in 
-section 2 b) of the GPL. This provision reads: 
-"You must cause any work that you distribute or 
-publish, that in whole or in part contains or is 
-derived from the Program or any part thereof, to 
-be licensed as a whole at no charge to all third 
-parties under the terms of this License." The GPL 
-can be obtained under 
-<http://www.fsf.org/licenses/gpl>.
-
-(4) If you distribute the Program or make it 
-publicly available in a modified form, you must 
-include a reference to the modifications and the 
-date of the modification in the Source Code. This 
-reference must reveal which modifications were 
-carried out and include existing references 
-containing information on the author of the 
-Program. This applies to whether or not you add 
-your own copyright notice. Instead of a reference 
-in the Source Code you may also use or carry on a 
-version control system, provided this is also 
-distributed or made publicly available. 
-
-(5) You may not charge any third party for the 
-granting of the non-exclusive rights of use for 
-the Program.
-
-(6) If you acquire any other intellectual or 
-industrial property right to this Program apart 
-from a copyright, in particular a patent or 
-utility model, you license this intellectual or 
-industrial property right for modified or 
-unmodified versions of the Program to the extent 
-that is necessary to make due use of the rights 
-arising from this License. 
-
-
-Section 4 Further Obligations for the 
-Distribution of the Object Code
-
-(1) If you distribute the Program in Object Code 
-form only, apart from the obligations defined in 
-Sections 2 and 3, you have to either:
-
-1. make the Complete Source Code publicly 
-available in the Internet and - when distributing 
-the Object Code - make a clear reference to the 
-complete Internet address from which the Source 
-Code can be downloaded; or
-
-2.  distribute the Complete Source Code on a 
-customary data carrier, taking into consideration 
-Sections 2 and 3.
-
-(2) If you make the Program publicly available in 
-Object Code form, apart from the obligations 
-defined in Sections 2 and 3 you must also make 
-the Complete Source Code publicly available in 
-the Internet and make a clear reference to the 
-complete Internet address.
-
-(3) Provided that you have received the 
-Documentation for the Program, you have to 
-deliver this Documentation together with the 
-Program in accordance with Subsections 1 and 2, 
-as well, unless free delivery of the 
-Documentation is not permitted by the 
-documentation license.
-
-
-Section 5 Conclusion of the Contract
-
-(1) With this License you and any other person 
-are offered the conclusion of a contract for the 
-use of this Program under the conditions of this 
-License.
-
-(2) You may use the Program in accordance with 
-the applicable statutory provisions for the 
-intended purpose without having to accept this 
-License. In the European Union and in most other 
-legal systems, this right in particular includes 
-the following authorizations: 
-
-1. Running of the Program as well as reproducing 
-on hard-drive and RAM  required for this;
-
-2. Making of a back-up copy;
-
-3. Correcting errors;
-
-4. Distributing a lawfully acquired physical copy 
-of the Program.
- 
-(3) You declare your acceptance of this License 
-by distributing the Program, making it publicly 
-available, modifying or reproducing it in a way 
-that goes beyond the intended use in the sense of 
-Subsection 2. From this time on, this License 
-shall be deemed as a legally binding agreement 
-between the Entitled Persons and you, without the 
-need for the Entitled Persons to obtain a 
-declaration of acceptance.
-
-(4) You and any other licensee acquire the rights 
-arising from this License directly from the 
-Entitled Persons. Any sub-licensing or transfer 
-of rights is not permitted.
- 
-
-Section 6 Termination of Rights in the Event of 
-Violations
-
-(1) Any violation of your obligations under this 
-License automatically leads to the termination of 
-your rights under this License. 
-
-(2) Any rights of third parties having obtained 
-the Program or rights to the Program from you 
-shall remain unaffected. 
-
-
-Section 7 Liability and Warranty
-
-(1) The Entitled Persons are only liable for 
-conflicting third-party rights if they were aware 
-of such rights without informing you.
-
-(2) Liability for errors and/or other defects in 
-the Program shall be governed by agreements 
-concluded between you and the Entitled Person 
-beyond the scope of this License or, if no such 
-agreement exists, by the pertinent statutory 
-provisions.  
-
-
-Section 8 Agreements with Third Parties
-
-(1) This License only governs the relationship 
-between you and the Entitled Persons. It is not 
-part of agreements between you and third parties. 
-
-(2) This License does not limit your freedom to 
-conclude agreements of any content whatsoever 
-with third parties obtaining copies of the 
-Program from you or purchasing services from you 
-in connection with the Program, provided that you 
-fulfil your obligations under this License and 
-third-party rights under this License are not 
-infringed. In particular, you may charge a fee as 
-consideration for the transfer of the Program or 
-other services.  
-
-(3) This License does not commit you to forward 
-the Program to a third party. You are free to 
-decide to whom you wish to make the Program 
-available. However, you may not prevent or 
-complicate further use by third parties through 
-the use of technical protective measures, in 
-particular, the use of copy protection of any 
-kind. Password-protected access restriction or 
-use in an Intranet shall not be regarded as 
-technical protective measures.
-
-
-Section 9 Text of the License
-
-(1) This License is written in German and 
-English. Both versions are equally binding. It is 
-assumed that terminology used in the License has 
-the same meaning in both versions. Should, 
-however, differences arise, such meaning is 
-authoritative which best brings into line both 
-versions, taking into consideration the aim and 
-purpose of the License. 
-
-(2) The license board of the German Free Software 
-License may put into force binding new versions 
-of this License inasmuch as this is required and 
-reasonable. New versions of the License will be 
-published on the Internet site <http://www.d-
-fsl.org> with a unique version number. The new 
-version of the License becomes binding for you as 
-soon as you become aware of its publication. 
-Legal remedies against the modification of the 
-License are not restricted by the regulations 
-described above. 
-
-(3) You may reproduce and distribute this License 
-and make it publicly available in an unmodified 
-form. 
-
-
-Section 10 Applicable Law
-
-The License is governed by German law.
+1.6. "Executable Form"
+    means any form of the work other than Source Code Form.
+
+1.7. "Larger Work"
+    means a work that combines Covered Software with other material, in
+    a separate file or files, that is not Covered Software.
+
+1.8. "License"
+    means this document.
+
+1.9. "Licensable"
+    means having the right to grant, to the maximum extent possible,
+    whether at the time of the initial grant or subsequently, any and
+    all of the rights conveyed by this License.
+
+1.10. "Modifications"
+    means any of the following:
+
+    (a) any file in Source Code Form that results from an addition to,
+        deletion from, or modification of the contents of Covered
+        Software; or
+
+    (b) any new file in Source Code Form that contains any Covered
+        Software.
+
+1.11. "Patent Claims" of a Contributor
+    means any patent claim(s), including without limitation, method,
+    process, and apparatus claims, in any patent Licensable by such
+    Contributor that would be infringed, but for the grant of the
+    License, by the making, using, selling, offering for sale, having
+    made, import, or transfer of either its Contributions or its
+    Contributor Version.
+
+1.12. "Secondary License"
+    means either the GNU General Public License, Version 2.0, the GNU
+    Lesser General Public License, Version 2.1, the GNU Affero General
+    Public License, Version 3.0, or any later versions of those
+    licenses.
+
+1.13. "Source Code Form"
+    means the form of the work preferred for making modifications.
+
+1.14. "You" (or "Your")
+    means an individual or a legal entity exercising rights under this
+    License. For legal entities, "You" includes any entity that
+    controls, is controlled by, or is under common control with You. For
+    purposes of this definition, "control" means (a) the power, direct
+    or indirect, to cause the direction or management of such entity,
+    whether by contract or otherwise, or (b) ownership of more than
+    fifty percent (50%) of the outstanding shares or beneficial
+    ownership of such entity.
+
+2. License Grants and Conditions
+--------------------------------
+
+2.1. Grants
+
+Each Contributor hereby grants You a world-wide, royalty-free,
+non-exclusive license:
+
+(a) under intellectual property rights (other than patent or trademark)
+    Licensable by such Contributor to use, reproduce, make available,
+    modify, display, perform, distribute, and otherwise exploit its
+    Contributions, either on an unmodified basis, with Modifications, or
+    as part of a Larger Work; and
+
+(b) under Patent Claims of such Contributor to make, use, sell, offer
+    for sale, have made, import, and otherwise transfer either its
+    Contributions or its Contributor Version.
+
+2.2. Effective Date
+
+The licenses granted in Section 2.1 with respect to any Contribution
+become effective for each Contribution on the date the Contributor first
+distributes such Contribution.
+
+2.3. Limitations on Grant Scope
+
+The licenses granted in this Section 2 are the only rights granted under
+this License. No additional rights or licenses will be implied from the
+distribution or licensing of Covered Software under this License.
+Notwithstanding Section 2.1(b) above, no patent license is granted by a
+Contributor:
+
+(a) for any code that a Contributor has removed from Covered Software;
+    or
+
+(b) for infringements caused by: (i) Your and any other third party's
+    modifications of Covered Software, or (ii) the combination of its
+    Contributions with other software (except as part of its Contributor
+    Version); or
+
+(c) under Patent Claims infringed by Covered Software in the absence of
+    its Contributions.
+
+This License does not grant any rights in the trademarks, service marks,
+or logos of any Contributor (except as may be necessary to comply with
+the notice requirements in Section 3.4).
+
+2.4. Subsequent Licenses
+
+No Contributor makes additional grants as a result of Your choice to
+distribute the Covered Software under a subsequent version of this
+License (see Section 10.2) or under the terms of a Secondary License (if
+permitted under the terms of Section 3.3).
+
+2.5. Representation
+
+Each Contributor represents that the Contributor believes its
+Contributions are its original creation(s) or it has sufficient rights
+to grant the rights to its Contributions conveyed by this License.
+
+2.6. Fair Use
+
+This License is not intended to limit any rights You have under
+applicable copyright doctrines of fair use, fair dealing, or other
+equivalents.
+
+2.7. Conditions
+
+Sections 3.1, 3.2, 3.3, and 3.4 are conditions of the licenses granted
+in Section 2.1.
+
+3. Responsibilities
+-------------------
+
+3.1. Distribution of Source Form
+
+All distribution of Covered Software in Source Code Form, including any
+Modifications that You create or to which You contribute, must be under
+the terms of this License. You must inform recipients that the Source
+Code Form of the Covered Software is governed by the terms of this
+License, and how they can obtain a copy of this License. You may not
+attempt to alter or restrict the recipients' rights in the Source Code
+Form.
+
+3.2. Distribution of Executable Form
+
+If You distribute Covered Software in Executable Form then:
+
+(a) such Covered Software must also be made available in Source Code
+    Form, as described in Section 3.1, and You must inform recipients of
+    the Executable Form how they can obtain a copy of such Source Code
+    Form by reasonable means in a timely manner, at a charge no more
+    than the cost of distribution to the recipient; and
+
+(b) You may distribute such Executable Form under the terms of this
+    License, or sublicense it under different terms, provided that the
+    license for the Executable Form does not attempt to limit or alter
+    the recipients' rights in the Source Code Form under this License.
+
+3.3. Distribution of a Larger Work
+
+You may create and distribute a Larger Work under terms of Your choice,
+provided that You also comply with the requirements of this License for
+the Covered Software. If the Larger Work is a combination of Covered
+Software with a work governed by one or more Secondary Licenses, and the
+Covered Software is not Incompatible With Secondary Licenses, this
+License permits You to additionally distribute such Covered Software
+under the terms of such Secondary License(s), so that the recipient of
+the Larger Work may, at their option, further distribute the Covered
+Software under the terms of either this License or such Secondary
+License(s).
+
+3.4. Notices
+
+You may not remove or alter the substance of any license notices
+(including copyright notices, patent notices, disclaimers of warranty,
+or limitations of liability) contained within the Source Code Form of
+the Covered Software, except that You may alter any license notices to
+the extent required to remedy known factual inaccuracies.
+
+3.5. Application of Additional Terms
+
+You may choose to offer, and to charge a fee for, warranty, support,
+indemnity or liability obligations to one or more recipients of Covered
+Software. However, You may do so only on Your own behalf, and not on
+behalf of any Contributor. You must make it absolutely clear that any
+such warranty, support, indemnity, or liability obligation is offered by
+You alone, and You hereby agree to indemnify every Contributor for any
+liability incurred by such Contributor as a result of warranty, support,
+indemnity or liability terms You offer. You may include additional
+disclaimers of warranty and limitations of liability specific to any
+jurisdiction.
+
+4. Inability to Comply Due to Statute or Regulation
+---------------------------------------------------
+
+If it is impossible for You to comply with any of the terms of this
+License with respect to some or all of the Covered Software due to
+statute, judicial order, or regulation then You must: (a) comply with
+the terms of this License to the maximum extent possible; and (b)
+describe the limitations and the code they affect. Such description must
+be placed in a text file included with all distributions of the Covered
+Software under this License. Except to the extent prohibited by statute
+or regulation, such description must be sufficiently detailed for a
+recipient of ordinary skill to be able to understand it.
+
+5. Termination
+--------------
+
+5.1. The rights granted under this License will terminate automatically
+if You fail to comply with any of its terms. However, if You become
+compliant, then the rights granted under this License from a particular
+Contributor are reinstated (a) provisionally, unless and until such
+Contributor explicitly and finally terminates Your grants, and (b) on an
+ongoing basis, if such Contributor fails to notify You of the
+non-compliance by some reasonable means prior to 60 days after You have
+come back into compliance. Moreover, Your grants from a particular
+Contributor are reinstated on an ongoing basis if such Contributor
+notifies You of the non-compliance by some reasonable means, this is the
+first time You have received notice of non-compliance with this License
+from such Contributor, and You become compliant prior to 30 days after
+Your receipt of the notice.
+
+5.2. If You initiate litigation against any entity by asserting a patent
+infringement claim (excluding declaratory judgment actions,
+counter-claims, and cross-claims) alleging that a Contributor Version
+directly or indirectly infringes any patent, then the rights granted to
+You by any and all Contributors for the Covered Software under Section
+2.1 of this License shall terminate.
+
+5.3. In the event of termination under Sections 5.1 or 5.2 above, all
+end user license agreements (excluding distributors and resellers) which
+have been validly granted by You or Your distributors under this License
+prior to termination shall survive termination.
+
+************************************************************************
+*                                                                      *
+*  6. Disclaimer of Warranty                                           *
+*  -------------------------                                           *
+*                                                                      *
+*  Covered Software is provided under this License on an "as is"       *
+*  basis, without warranty of any kind, either expressed, implied, or  *
+*  statutory, including, without limitation, warranties that the       *
+*  Covered Software is free of defects, merchantable, fit for a        *
+*  particular purpose or non-infringing. The entire risk as to the     *
+*  quality and performance of the Covered Software is with You.        *
+*  Should any Covered Software prove defective in any respect, You     *
+*  (not any Contributor) assume the cost of any necessary servicing,   *
+*  repair, or correction. This disclaimer of warranty constitutes an   *
+*  essential part of this License. No use of any Covered Software is   *
+*  authorized under this License except under this disclaimer.         *
+*                                                                      *
+************************************************************************
+
+************************************************************************
+*                                                                      *
+*  7. Limitation of Liability                                          *
+*  --------------------------                                          *
+*                                                                      *
+*  Under no circumstances and under no legal theory, whether tort      *
+*  (including negligence), contract, or otherwise, shall any           *
+*  Contributor, or anyone who distributes Covered Software as          *
+*  permitted above, be liable to You for any direct, indirect,         *
+*  special, incidental, or consequential damages of any character      *
+*  including, without limitation, damages for lost profits, loss of    *
+*  goodwill, work stoppage, computer failure or malfunction, or any    *
+*  and all other commercial damages or losses, even if such party      *
+*  shall have been informed of the possibility of such damages. This   *
+*  limitation of liability shall not apply to liability for death or   *
+*  personal injury resulting from such party's negligence to the       *
+*  extent applicable law prohibits such limitation. Some               *
+*  jurisdictions do not allow the exclusion or limitation of           *
+*  incidental or consequential damages, so this exclusion and          *
+*  limitation may not apply to You.                                    *
+*                                                                      *
+************************************************************************
+
+8. Litigation
+-------------
+
+Any litigation relating to this License may be brought only in the
+courts of a jurisdiction where the defendant maintains its principal
+place of business and such litigation shall be governed by laws of that
+jurisdiction, without reference to its conflict-of-law provisions.
+Nothing in this Section shall prevent a party's ability to bring
+cross-claims or counter-claims.
+
+9. Miscellaneous
+----------------
+
+This License represents the complete agreement concerning the subject
+matter hereof. If any provision of this License is held to be
+unenforceable, such provision shall be reformed only to the extent
+necessary to make it enforceable. Any law or regulation which provides
+that the language of a contract shall be construed against the drafter
+shall not be used to construe this License against a Contributor.
+
+10. Versions of the License
+---------------------------
+
+10.1. New Versions
+
+Mozilla Foundation is the license steward. Except as provided in Section
+10.3, no one other than the license steward has the right to modify or
+publish new versions of this License. Each version will be given a
+distinguishing version number.
+
+10.2. Effect of New Versions
+
+You may distribute the Covered Software under the terms of the version
+of the License under which You originally received the Covered Software,
+or under the terms of any subsequent version published by the license
+steward.
+
+10.3. Modified Versions
+
+If you create software not governed by this License, and you want to
+create a new license for such software, you may create and use a
+modified version of this License if you rename the license and remove
+any references to the name of the license steward (except to note that
+such modified license differs from this License).
+
+10.4. Distributing Source Code Form that is Incompatible With Secondary
+Licenses
+
+If You choose to distribute Source Code Form that is Incompatible With
+Secondary Licenses under the terms of this version of the License, the
+notice described in Exhibit B of this License must be attached.
+
+Exhibit A - Source Code Form License Notice
+-------------------------------------------
+
+  This Source Code Form is subject to the terms of the Mozilla Public
+  License, v. 2.0. If a copy of the MPL was not distributed with this
+  file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+If it is not possible or desirable to put the notice in a particular
+file, then You may include the notice in a location (such as a LICENSE
+file in a relevant directory) where a recipient would be likely to look
+for such a notice.
+
+You may add additional accurate notices of copyright ownership.
+
+Exhibit B - "Incompatible With Secondary Licenses" Notice
+---------------------------------------------------------
+
+  This Source Code Form is "Incompatible With Secondary Licenses", as
+  defined by the Mozilla Public License, v. 2.0.
